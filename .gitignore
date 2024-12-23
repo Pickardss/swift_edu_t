@@ -1,0 +1,25 @@
+# macOS Specific
+.DS_Store
+
+# Build Artifacts
+/.build/
+/DerivedData/
+/swiftpm/
+
+# Swift Package Manager
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode Specific
+*.xcuserdata
+*.xcworkspace
+xcuserdata/
+
+# Dependency Management
+/Packages
+
+# IDE/Editor Configurations
+.vscode/
+
+# User-Specific Configurations (Remove if not used)
+.netrc
