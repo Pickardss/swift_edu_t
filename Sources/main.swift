@@ -1,8 +1,9 @@
 import Foundation
 
 func main() {
-    // `the_basics.swift` dosyasındaki `runTheBasics()` fonksiyonunu çağırıyoruz
+    // Önceki dosyalardaki fonksiyonları çağırabilirsiniz
     runTheBasics()
+    runBasicOperators() // basic_operators.swift dosyasındaki fonksiyon
 }
 
 main()
