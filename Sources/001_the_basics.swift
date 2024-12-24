@@ -141,3 +141,16 @@ func runTheBasics() {
     assert(age >= 0, "Age cannot be negative!") // Debug sırasında kontrol için assert kullanıldı
     precondition(age >= 0, "Age must be non-negative.") // Üretim sırasında kontrol için precondition kullanıldı
 }
+
+/*
+ SUMMARY:
+ Bu kod, Swift'in temel özelliklerini öğrenmek için kapsamlı bir örnek sağlar:
+ - Sabitler ve değişkenler
+ - Tür anotasyonları ve çıkarımı
+ - Sayı türleri ve dönüşümleri
+ - Optional türlerin kullanımı ve unwrap edilmesi
+ - Tuple, boolean ve string manipülasyonları
+ - Hata yönetimi (do-catch)
+ - Doğrulama (assert ve precondition)
+ Bu temel yapı taşları, Swift dilinde programlama yaparken ihtiyaç duyulacak bilgileri kapsar.
+*/

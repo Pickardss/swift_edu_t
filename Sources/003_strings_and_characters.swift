@@ -148,3 +148,29 @@ func runStringsAndCharacters() {
         print(scalar.value)
     }
 }
+
+/*
+ SUMMARY:
+ Bu kod, Swift dilinde stringler ve karakterler ile çalışmanın temel ve ileri düzey özelliklerini açıklar:
+ 
+ 1. **String Literals:** String değerlerin nasıl tanımlandığı gösterildi.
+ 2. **Multiline String Literals:** Birden fazla satırlık stringler `"""` ile oluşturuldu.
+ 3. **Special Characters:** String içerisinde özel karakterlerin (\n, \") kullanımı açıklandı.
+ 4. **Extended String Delimiters:** Özel karakterlerin escape edilmeden kullanılması için `#` kullanımı gösterildi.
+ 5. **Initializing an Empty String:** Boş stringlerin nasıl tanımlanacağı açıklandı.
+ 6. **String Mutability:** `var` ile değiştirilebilir, `let` ile sabit stringlerin kullanımı gösterildi.
+ 7. **Strings Are Value Types:** Stringlerin kopyalanarak değer olarak geçtiği örneklendi.
+ 8. **Working with Characters:** String içindeki karakterlere erişim `for` döngüsüyle açıklandı.
+ 9. **Concatenating Strings and Characters:** Stringlerin ve karakterlerin birleştirilmesi.
+ 10. **String Interpolation:** Stringlerin içine hesaplamalar ve değişkenlerin dahil edilmesi.
+ 11. **Unicode:** Unicode karakterlerin nasıl kullanıldığı açıklandı.
+ 12. **Unicode Scalar Values:** Karakterlerin Unicode scalar değerleri gösterildi.
+ 13. **Extended Grapheme Clusters:** Birleşik karakterlerin (örneğin, `é`) nasıl oluşturulduğu.
+ 14. **Counting Characters:** Bir stringdeki karakterlerin sayısının `count` ile bulunması.
+ 15. **Accessing and Modifying a String:** Stringlere karakter ekleme (`insert`) ve çıkarma (`remove`).
+ 16. **Substrings:** Bir stringin belirli bir bölümünün nasıl alındığı.
+ 17. **Comparing Strings:** String eşitliği ve `hasPrefix`, `hasSuffix` gibi fonksiyonlarla karşılaştırma.
+ 18. **Unicode Representations of Strings:** Stringlerin UTF-8, UTF-16 ve Unicode Scalar olarak temsilleri.
+
+ Bu kod, string ve karakter işlemleri için güçlü bir temel sağlar ve Swift'in text işleme gücünü anlamak için idealdir.
+*/

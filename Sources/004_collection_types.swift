@@ -109,3 +109,28 @@ func runCollectionTypes() {
         print("Key: \(key), Value: \(value)")
     }
 }
+
+/*
+ SUMMARY:
+ Bu kod, Swift dilindeki koleksiyon türlerini (Arrays, Sets, Dictionaries) kapsamlı bir şekilde ele alır:
+
+ 1. **Mutability of Collections:** `var` ile değiştirilebilir ve `let` ile sabit koleksiyonlar arasındaki fark açıklanır.
+ 
+ 2. **Arrays:**
+    - Kısa notasyon (`[Type]`) ve `Array(repeating:count:)` ile oluşturma.
+    - Eleman ekleme (`append`), değiştirme ve erişim.
+    - Birden fazla diziyi birleştirme (`+`) ve diziler üzerinde döngü kullanımı (`for`).
+ 
+ 3. **Sets:**
+    - Hash tabanlı ve benzersiz elemanları içeren koleksiyonlar.
+    - Set oluşturma (`Set<Type>`), eleman ekleme/çıkarma (`insert`, `remove`).
+    - Temel set işlemleri (union, intersection, subtracting) ve eleman içerme/kapsama kontrolleri.
+ 
+ 4. **Dictionaries:**
+    - Anahtar-değer çiftlerini depolamak için kullanılır.
+    - Boş sözlük oluşturma ve sözlük literal kullanımı.
+    - Eleman ekleme, güncelleme ve sözlük üzerinde döngüyle gezinme.
+
+ Bu kod, diziler, kümeler ve sözlüklerle çalışırken gereken temel kavramları ve işlemleri açıklar. 
+ Koleksiyonların kullanımıyla Swift'te veri yönetimi konusunu anlamak için ideal bir rehberdir.
+*/

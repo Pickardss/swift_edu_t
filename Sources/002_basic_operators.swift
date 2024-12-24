@@ -115,3 +115,23 @@ func runBasicOperators() {
     let calculatedResult = (2 + 3) * 4 // Parantezler işlemlerin sırasını belirler
     print("Explicit Parentheses: \(calculatedResult)")
 }
+
+/*
+ SUMMARY:
+ Bu kod, Swift dilindeki temel operatörleri tanıtır ve her birinin nasıl çalıştığını örneklerle gösterir:
+ 
+ 1. **Terminology:** Operatörlerin tanımı ve örnekleri.
+ 2. **Assignment Operator:** `=` ile değişkenlere değer atama işlemleri.
+ 3. **Arithmetic Operators:** Toplama, çıkarma, çarpma ve bölme işlemleri.
+ 4. **Remainder Operator:** Modulus (`%`) ile bir sayının diğerine bölümünden kalan bulunur.
+ 5. **Unary Operators:** Tekil operatörlerle sayıların işaretlerini değiştirme veya aynı bırakma.
+ 6. **Compound Assignment Operators:** `+=`, `-=`, vb. ile atama ve işlemleri birleştirme.
+ 7. **Comparison Operators:** Eşitlik, büyüklük ve küçüklük karşılaştırmaları.
+ 8. **Ternary Conditional Operator:** Şartlı ifadelerle değer seçimi.
+ 9. **Nil-Coalescing Operator:** Optional değerler için varsayılan bir değer atanması.
+ 10. **Range Operators:** Kapalı (`...`), yarı açık (`..<`) ve tek taraflı aralıklar (`[2...]`).
+ 11. **Logical Operators:** `!`, `&&`, `||` ile mantıksal işlemler ve bunların kombinasyonu.
+ 12. **Explicit Parentheses:** Parantezlerle işlem sıralamasının kontrol edilmesi.
+ 
+ Bu kod, operatörlerin nasıl kullanılacağını göstererek Swift'teki matematiksel ve mantıksal işlemleri anlamaya yardımcı olur.
+*/
